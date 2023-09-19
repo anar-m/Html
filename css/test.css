@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+    color: black;
+}
+
+h4{
+font-size: 80px;
+color: chartreuse;
+border: 10px dashed blue;
+border-radius: 30px;
+
+}
+
+.sekil{
+    font-size: 30px;
+    background-color: coral;
+    color: black;
+    font-style: italic;
+    width: 50%;
+    height: 50%;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 400;
+}

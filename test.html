@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <h1>Hello HTML</h1>
+    <h1 style="color: #aedba4; text-align: center; background-color: coral; font-size: 50px;">Hello HTML</h1>
     <h4> <hr>Bu da bir başlıktır</h4><hr>
+    <link rel="stylesheet" href="css/test.css">
 </head>
 <body>
     
 <!--Bu yorum satiri-->
 <!-- Shift + Alt + A kombinasyonu VS kodda hangi dilde calisiyorsanız ona ait yorum satirini getirir --> 
 <p>HELLO WORLD!</p>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam debitis veritatis architecto,
+<hr>
+<p class="sekil" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam debitis veritatis architecto,
      dolores ipsa quod. A qui, fugit laboriosam dicta vero iste facere modi recusandae minima asperiores officiis. 
      A, veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit.  <strong>Dolores obcaecati <u>dolor deserunt</u>   odit,</strong>  
      perferendis exercitationem quasi perspiciatis rerum? At officiis ut, consequatur voluptate repellat repudiandae 
@@ -20,22 +22,66 @@
      quidem hic minima autem reiciendis? Ipsa, eveniet. Consectetur consequuntur esse ex harum ea maiores?
      <i>Recusandae laudantium porro magni vitae cupiditate aspernatur, </i>error a minima quidem tempore, perferendis omnis ipsa 
      deleniti dignissimos et, quasi obcaecati vero alias assumenda dolores eaque velit modi quis nostrum. Ipsum.</p>
+     
 
-
-     <div>bu satırın tamamını işgal ediyorum.  <div>yeni div</div>çünkü ben bir div'im!</div>
+     <div style="background-color: aqua; text-align: right;">bu satırın tamamını işgal ediyorum.  <div>yeni div</div>çünkü ben bir div'im!</div>
 
 
      <form action="">
 
-        <label for="Adınız"></label>
+        <label for="">Adınız</label>
         <input type="text"name="" id="">
         <input type="button" value="Kaydet">
 
             <br>
 
-        <label for="E-mail"></label>
+        <label for="">E-mail</label>
         <input type="email" name="" id="">
         <input type="button" value="Gönder">
+            <br>
+
+        <label for="">Phone</label>
+        <input type="number" name="" id="">
+
+        <br>
+
+        <label for="">Password</label>
+        <input type="password" name="" id="">
+
+        <br>
+
+        <input type="checkbox" name="hobiler">Futbol
+        <input type="checkbox" name="hobiler">Masa Tenisi
+        <input type="checkbox" name="hobiler">Yüzme
+        <input type="checkbox" name="hobiler">Basketbol
+
+        <br>
+        
+        <input type="radio" name="cinsiyet" id="">Kadın
+        <input type="radio" name="cinsiyet" id="">Erkek
+        <input type="radio" name="cinsiyet" id="">Belirtmek istemiyorum
+            <br>
+
+        <input type="radio" name="yas aralıgı" id="">18 yaş altı
+        <input type="radio" name="yas aralıgı" id="">18-55
+        <input type="radio" name="yas aralıgı" id="">55 ve üstü
+
+        <br>
+        <label for="ayni">İl seçin lütfen</label>
+        <select name="iller" id="ayni">
+
+          <option value="01">Adana</option>  
+          <option value="02">Adıyaman</option>  
+          <option value="03">Afyon</option>  
+          <option value="04">Ağrı</option>  
+
+        </select>
+
+        <br>
+
+        <textarea name="mesaj" id="" cols="30" rows="10"></textarea>
+
+
 
 
      </form>
